@@ -8,6 +8,10 @@
 header{
     /* background: red; */
     width: 100%;
+    height: 100px;
+    position: sticky;
+    top: -10px;
+    background-image: linear-gradient(var(--color-banner), var(--color-banner));
 }
 .menu{
     /* background: yellow; */
@@ -44,8 +48,15 @@ header{
     /*Codigo Sacado de la Libreria de variables.css*/
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 800;
     font-style: normal;
+    transition: all 0.3s ease-in-out;
+}
+.menu_item1 li a:hover,
+.menu_item3 li a:hover{
+    color: var(--color-primary)
 }
 
 .menu_item2{
@@ -80,27 +91,29 @@ header{
 
 .home_1{
     text-align: left;
+    object-fit: scale-down;
 }
 
 .home_1 img{
     margin-left: 100px;
-    margin-top: 200px;
-    width: 800px;
+    margin-top: 300px;
+    width: 790px;
+
 }
 
 .home2{
-    text-align: right;
+    text-align: center;
+    margin-right: -600px;
+    margin-top: 300px;
 }
 
 .home_2{
-    color: orange;
+    color: var(--color-primary);
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-size: 50px;
-    font-weight: 800;
-    font-style: normal;
-    margin-right: 450px;
-    margin-top: 150px;
+    font-style: bold;
+    line-height: 90px;
 }
 
 .home3{
@@ -112,7 +125,61 @@ header{
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-size: 18px;
+    font-style: bold;
+    margin-left: 960px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.home_4{
+    background: var(--color-primary);
+    padding: 30px;
+    padding-inline: 25px;
+    margin: 100px;
+    margin-left: 960px;
+    margin-top: 30px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
     font-style: normal;
-    margin-left: 550px;
-    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    transition: all 0.1s ease-in-out;
+    position: absolute;
+}
+.home_4:hover{
+    color: var(--color-font);
+    box-shadow: 3px 3px 15px var(--color-primary);
+}
+.about{
+    background: var(--color-secundary);
+    position: relative;
+    width: 100%;
+    height: 2000px;
+    margin-top: 20;
+    top: -120px;
+    z-index: -1;
+}
+.about article:first-child,
+.about article:last-child{
+    margin-top: 60px;
+    display: inline-block;
+    width: 55%;
+    height: 500px;
+    position: absolute;
+}
+.about article:first-child{
+    width: 45%;
+    text-align: center;
+    background: blue;
+}
+.about article:first-child img{
+    background: green;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+.about article:last-child{
+    background: red;
+    right: 0;
 }
