@@ -76,3 +76,43 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+.home_1{
+    text-align: left;
+}
+
+.home_1 img{
+    margin-left: 100px;
+    margin-top: 200px;
+    width: 800px;
+}
+
+.home2{
+    text-align: right;
+}
+
+.home_2{
+    color: orange;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-size: 50px;
+    font-weight: 800;
+    font-style: normal;
+    margin-right: 450px;
+    margin-top: 150px;
+}
+
+.home3{
+    text-align: center;
+}
+
+.home_3{
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-style: normal;
+    margin-left: 550px;
+    margin-top: 10px;
+}
