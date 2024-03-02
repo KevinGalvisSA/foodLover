@@ -90,9 +90,9 @@ header{
 .home article:last-child{
     display: inline-block;
     width: 49%;
-    height: 500px;
+    height: 600px;
     position: absolute;
-    bottom: 65px;
+    bottom: 85px;
 }
 
 .home article:first-child{
@@ -121,7 +121,7 @@ header{
 
 .card h1{
     color: var(--color-primary);
-    font-size: 76px;
+    font-size: 75px;
     line-height: 85px;
 
     font-family: "Roboto Slab", serif;
@@ -178,17 +178,51 @@ header{
     position: absolute;
 }
 .about article:first-child{
-    width: 45%;
     text-align: center;
-    background: blue;
+    /* background: blue; */
 }
 .about article:first-child img{
-    background: green;
-    width: 500px;
-    height: 500px;
+    /* background: green; */
+    margin-top: 60px;
+    margin-right: 200px;
+    width: 700px;
+    height: 700px;
     object-fit: cover;
 }
 .about article:last-child{
-    background: red;
+    margin-top: 220px;
+    /* background: red;*/
     right: 0;
+}
+
+.about .card h1{
+    color: var(--color-font);
+    font-size: 50px;
+
+
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.about .card p{
+    /* background: red; */
+    color: var(--color-font);
+    font-size: 30px;
+    width: 700px;
+    height: 390px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+.about .extra img{
+    margin-top: 300px;
+    margin-left: 700px;
+    width: 600px;
+    height: 900px;
+    object-fit:filled;
 }
